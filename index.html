@@ -3,13 +3,36 @@
 
 
 <head>
-
-
+<title> CS Psychic Game</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 <body>
-
-
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container headText">
+    The Psychic Game!
+  </div>
+</nav>
+<div id="mainbody">
+	<h1>The Psychic Game</h1>
+	<h2>Guess what letter I'm thinking of</h2>
+		<div id="contentOfGame">
+          <ul class="list-group">
+            <li class="list-group-item"><p id="wins">Wins: </p></li>
+            <li class="list-group-item"><p id="losses">Losses: </p></li>
+            <li class="list-group-item"><p id="guessLeft">Guesses Left: </p></li>
+            <li class="list-group-item"><p id="letters">Your Guesses so far: </p></li>
+          </ul>  
+        </div>
+<div>
+<!--Footer-->
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container footer">
+    Copyright Chris Sayles 2016
+  </div>
+</nav>
 <script src="assets/javascript/game.js"></script>
 </body>
 
-</head>
 </html>

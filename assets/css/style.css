@@ -1,0 +1,38 @@
+
+body {
+	background-image: url("../images/sunset.jpg");
+	background-size: cover;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+h2 {
+	color:#fcd329;
+}
+
+.headText {
+	color: #fcd329;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    background-color: #ae1e03;
+}
+
+#mainbody {
+	width: 448px;
+	margin-top: 72px;
+	margin-left: 410px;
+
+}
+
+
+.footer {
+	text-align: center;
+	color: #fcd329;
+	font-size: 20px;
+	background-color: black;
+	width: 100%;
+}
