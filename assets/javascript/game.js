@@ -12,7 +12,7 @@ var previousLetters = [];
 //RandomLetter does not need to equal a value
 var RandomLetter;
 
-//User types letter and input is logged
+//User types letter and input is logged.  remaining guess are subtracted
   document.onkeyup = function(event) {
     remainingGuesses--;
     var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
